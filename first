@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Skip to Main Content</a>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<main id="main" class="grid-container">
+    <section>
+        <h2>Section One</h2>
+        <img src="images/img1.jpg" alt="Nature Image">
+        <p>This is my homepage content using CSS Grid.</p>
+    </section>
+
+    <section>
+        <h2>Section Two</h2>
+        <img src="images/img2.jpg" alt="City Image">
+        <p>This section is part of a two-column grid layout.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+</body>
+</html>
